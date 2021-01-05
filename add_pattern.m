@@ -13,6 +13,7 @@ function image = add_pattern(image, pattern, center_pos_adding, color)
                 % Add color*pattern(i,j) to the pixel
                 % And make it so that pixel is not lower than 0 and bigger
                 % than 1
+                % This line is also a comment to test Github
 %                 pixel = max([0 0 0],min([1 1 1],max(pixel,color*pattern(i,j))));
                 pixel = max([0 0 0],min([1 1 1],pixel + color*pattern(i,j)));
                 image(pos_i,pos_j,1)=pixel(1); image(pos_i,pos_j,2)=pixel(2); image(pos_i,pos_j,3)=pixel(3);
