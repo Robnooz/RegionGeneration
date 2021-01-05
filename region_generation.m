@@ -1,5 +1,6 @@
 clear variables
 
+% This is a comment just to test Github process
 
 image_size = [500 800];
 image=zeros(image_size(1),image_size(2),3); %initialize
